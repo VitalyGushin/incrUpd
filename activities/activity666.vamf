@@ -22,7 +22,7 @@
                "testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc"
             },
             {
-               "name": "Teardown #2",
+               "name": "Teardown 2",
                "testPath": "main/velocity_test_contents/test_cases/always_fail.fftc"
             } 
          ]
@@ -39,7 +39,7 @@
                "testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc"
             },
             {
-               "name": "Teardown #2",
+               "name": "Teardown 2",
                "testPath": "main/velocity_test_contents/test_cases/always_fail.fftc"
             },
             {
