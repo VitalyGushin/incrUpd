@@ -1,0 +1,56 @@
+{
+   "name": "Activity - Automation",
+   "shortDescription": "Test Activity Automation",
+   "icon": "customActivityManual.svg",
+   "descriptionMarkdown": "customActivityManual.md",
+   "topology": [
+      {
+         "name": "TestAutomation",
+         "actionTitle": "Reserve",
+         "description": "Descriptive text alongside button",
+         "reservationDuration": "60",
+         "automation": [
+            {
+               "name": "Sleep",
+               "testPath": "main/sleep-plain.fftc/sleep-plain.fftc",
+               "parameterFilePath": "Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan.ffpt",
+               "parametersList": [
+                  {
+                     "name": "Number_of_seconds",
+                     "value": "60",
+                  }
+               ],
+               "requirements": [
+                  {
+                     "name": "os.type",
+                     "value": "linux"
+                  },
+                  {
+                     "name": "pool",
+                     "value": "driver"
+                  }
+               ]
+            },
+            {
+               "testPath": "Velocity_Community/ri_f5/test_cases/unit_test.fftc",
+               "parametersList": [
+                  {
+                     "name": "Number_of_seconds",
+                     "value": "60",
+                  }
+               ],
+               "requirements": [
+                  {
+                     "name": "os.type",
+                     "value": "linux"
+                  },
+                  {
+                     "name": "pool",
+                     "value": "driver"
+                  }
+               ]
+            },            
+         ]
+      }
+   ]
+}
