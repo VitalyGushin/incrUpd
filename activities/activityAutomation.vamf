@@ -10,8 +10,29 @@
          "description": "Descriptive text alongside button",
          "reservationDuration": "60",
          "automation": [
-            {
+           {
+               "testPath": "main/sleep2.fftc/sleep2.fftc",
+               "parameterFilePath": "Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan.ffpt",
+               "parametersList": [
+                  {
+                     "name": "Number_of_seconds",
+                     "value": "60"
+                  }
+               ],
+               "requirements": [
+                  {
+                     "name": "os.type",
+                     "value": "linux"
+                  },
+                  {
+                     "name": "pool",
+                     "value": "driver"
+                  }
+               ]
+            },
+           {
                "name": "Sleep",
+               "description": "Sleep with parameter file", 
                "testPath": "main/sleep-plain.fftc/sleep-plain.fftc",
                "parameterFilePath": "Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan.ffpt",
                "parametersList": [
