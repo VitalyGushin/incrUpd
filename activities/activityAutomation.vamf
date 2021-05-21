@@ -1,5 +1,5 @@
 {
-   "name": "Activity - Automation5",
+   "name": "Activity - Automation55",
    "shortDescription": "Test Activity Automation",
    "icon": "customActivityManual.svg",
    "descriptionMarkdown": "customActivityManual.md",
@@ -11,7 +11,7 @@
          "reservationDuration": "60",
          "automation": [
            {
-               "tags": ["tag0", "tag1", "tag2"],
+               "tags": ["tag0", "tag1", "tag2"]
            },
            {
                "name": "Sleep",
