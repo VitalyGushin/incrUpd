@@ -11,24 +11,7 @@
          "reservationDuration": "60",
          "automation": [
            {
-               "testPath": "main/sleep2.fftc/sleep2.fftc",
-               "parameterFilePath": "Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan2.ffpt",
-               "parametersList": [
-                  {
-                     "name": "Number_of_seconds",
-                     "value": "60"
-                  }
-               ],
-               "requirements": [
-                  {
-                     "name": "os.type",
-                     "value": "linux"
-                  },
-                  {
-                     "name": "pool",
-                     "value": "driver"
-                  }
-               ]
+               "tags": ["tag0", "tag1", "tag2"],
            },
            {
                "name": "Sleep",
