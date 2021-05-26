@@ -13,6 +13,9 @@
            {
                "tags": ["tag0", "tag1", "tag2"]
            },
+                      {
+               "tags": ["tag3", "tag4", "tag5"]
+           },
            {
                "name": "Sleep",
                "description": "Sleep with parameter file", 
