@@ -21,6 +21,7 @@
                "description": "Sleep with parameter file", 
                "testPath": "main/sleep-plain.fftc/sleep-plain.fftc",
                "parameterFilePath": "Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan.ffpt",
+               "allowToRunWithOptions": true,
                "parametersList": [
                   {
                      "name": "Number_of_seconds",
