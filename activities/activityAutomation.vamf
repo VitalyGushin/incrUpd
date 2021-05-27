@@ -4,6 +4,22 @@
    "icon": "customActivityManual.svg",
    "descriptionMarkdown": "customActivityManual.md",
    "topology": [
+            {
+         "name": "TestAutomation4",
+         "actionTitle": "Reserve",
+         "description": "Descriptive text alongside button",
+         "reservationDuration": "60",
+         "automation": [
+           {
+               "tags": ["tag0", "tag1", "tag2"]
+           },
+                      {
+               "tags": ["tag3", "tag4", "tag5"]
+           },
+         ]
+      }
+,
+
          {
          "name": "TestAutomation3",
          "actionTitle": "Reserve",
