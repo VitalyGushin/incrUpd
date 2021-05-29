@@ -41,7 +41,8 @@
                "parametersList": [
                   {
                      "name": "Number_of_seconds",
-                     "value": "60"
+                     "value": "60",
+                     "type": "TEXT"
                   }
                ],
                "requirements": [
@@ -60,7 +61,8 @@
                "parametersList": [
                   {
                      "name": "Number_of_seconds",
-                     "value": "60"
+                     "value": "60",
+                     "type": "TEXT"
                   }
                ],
                "requirements": [
@@ -89,7 +91,8 @@
                "parametersList": [
                   {
                      "name": "Number_of_seconds",
-                     "value": "60"
+                     "value": "60",
+                     "type": "TEXT"
                   }
                ],
                "requirements": [
@@ -111,7 +114,8 @@
                "parametersList": [
                   {
                      "name": "Number_of_seconds",
-                     "value": "60"
+                     "value": "60",
+                     "type": "TEXT"
                   }
                ],
                "requirements": [
@@ -130,7 +134,8 @@
                "parametersList": [
                   {
                      "name": "Number_of_seconds",
-                     "value": "60"
+                     "value": "60",
+                     "type": "TEXT"
                   }
                ],
                "requirements": [
@@ -160,7 +165,8 @@
                "parametersList": [
                   {
                      "name": "Number_of_seconds",
-                     "value": "60"
+                     "value": "60",
+                     "type": "TEXT"
                   }
                ],
                "requirements": [
@@ -182,7 +188,8 @@
                "parametersList": [
                   {
                      "name": "Number_of_seconds",
-                     "value": "60"
+                     "value": "60",
+                     "type": "TEXT"
                   }
                ],
                "requirements": [
@@ -201,7 +208,8 @@
                "parametersList": [
                   {
                      "name": "Number_of_seconds",
-                     "value": "60"
+                     "value": "60",
+                     "type": "TEXT"
                   }
                ],
                "requirements": [
