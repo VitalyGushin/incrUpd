@@ -27,7 +27,26 @@
          "reservationDuration": "60",
          "automation": [
            {
-               "tags": ["tag0", "tag1", "tag2"]
+               "tags": ["tag0", "tag1", "tag2"],
+               "parameterFilePath": "Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan.ffpt",
+               "allowToRunWithOptions": true,
+               "parametersList": [
+                  {
+                     "name": "Number_of_seconds",
+                     "value": "45",
+                     "type": "TEXT"
+                  }
+               ],
+               "requirements": [
+                  {
+                     "name": "os.type",
+                     "value": "linux"
+                  },
+                  {
+                     "name": "pool",
+                     "value": "driver"
+                  }
+               ]
            },
                       {
                "tags": ["tag3", "tag4", "tag5"]
