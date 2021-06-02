@@ -101,6 +101,12 @@
                "parameterFilePath":"Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan.ffpt",
                "allowToRunWithOptions":true,
                "parametersList":[
+                {
+                     "name":"paramMasked",
+                     "value":"45",
+                     "type":"TEXT",
+                     "masked": "true"
+                  },
                   {
                      "name":"Number_of_seconds",
                      "value":"45",
