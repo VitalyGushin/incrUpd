@@ -18,7 +18,7 @@
                "allowToRunWithOptions":true,
                "parametersList":[
                   {
-                     "name":"paramSecret",
+                     "name":"paramMasked",
                      "value":"45",
                      "type":"TEXT"
                   },
