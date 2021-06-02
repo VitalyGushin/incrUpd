@@ -20,7 +20,8 @@
                   {
                      "name":"paramMasked",
                      "value":"45",
-                     "type":"TEXT"
+                     "type":"TEXT",
+                     "masked": "true"
                   },
                   {
                      "name":"paramText",
