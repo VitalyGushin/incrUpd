@@ -4,28 +4,64 @@
    "icon": "customActivityManual.svg",
    "descriptionMarkdown": "customActivityManual.md",
    "topology": [
-            {
-         "name": "TestAutomation4",
-         "actionTitle": "Reserve",
-         "description": "Descriptive text alongside button",
-         "reservationDuration": "60",
-         "automation": [
-           {
-               "tags": ["tag0", "tag1", "tag2"]
-           },
-                      {
-               "tags": ["tag3", "tag4", "tag5"]
-           }
-         ]
-      }
-,
+         {
+               "name": "Runlist with secrets",
+               "description": "Runlist with secrets", 
+               "testPath": "main/_runlists/runlist-sleep.vrl",
+               "parameterFilePath": "Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan.ffpt",
+               "allowToRunWithOptions": true,
+               "parametersList": [
+                  {
+                     "name": "paramSecret",
+                     "value": "45",
+                     "type": "TEXT"
+                  },
+                  {
+                     "name": "paramText",
+                     "value": "46",
+                     "type": "TEXT"
+                  }
 
+               ],
+               "requirements": [
+                  {
+                     "name": "os.type",
+                     "value": "linux"
+                  },
+                  {
+                     "name": "pool",
+                     "value": "driver"
+                  }
+               ]
+            },
          {
          "name": "TestAutomation3",
          "actionTitle": "Reserve",
          "description": "Descriptive text alongside button",
          "reservationDuration": "60",
          "automation": [
+                    {
+               "parameterFilePath": "Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan.ffpt",
+               "allowToRunWithOptions": true,
+               "parametersList": [
+                  {
+                     "name": "Number_of_seconds",
+                     "value": "45",
+                     "type": "TEXT"
+                  }
+               ],
+               "requirements": [
+                  {
+                     "name": "os.type",
+                     "value": "linux"
+                  },
+                  {
+                     "name": "pool",
+                     "value": "driver"
+                  }
+               ]
+           },
+
            {
                "tags": ["tag0", "tag1", "tag2"],
                "parameterFilePath": "Velocity_Community/ri_apcon/drivers/unit_tests/addToVlan.ffpt",
