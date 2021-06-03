@@ -27,7 +27,12 @@
                      "name":"paramText",
                      "value":"46",
                      "type":"TEXT"
-                  }
+                  },
+                  {
+                     "name":"Number_of_seconds",
+                     "value":"20",
+                     "type":"TEXT"
+                  },
                ],
                "requirements":[
                   {
