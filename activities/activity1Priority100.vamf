@@ -3,7 +3,7 @@
    "shortDescription": "Test Activity Priority 100",
    "icon": "customActivityManual.svg",
    "descriptionMarkdown": "customActivityManual.md",
-   "priority": 100,
+   "priority": 0100,
    "topology": [
       {
          "name": "Velocity Cluster",
