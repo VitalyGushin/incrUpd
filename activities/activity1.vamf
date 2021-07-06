@@ -6,6 +6,48 @@
    "topology": [
       {
          "name": "Topo1",
+         "addRepositoryNamePrefix": true,
+         "actionTitle": "Reserve",
+         "description": "Create an immediate reservation on the topology",
+         "reservationDuration": "30",
+         "startupTasks": [{
+         	"name": "TaskParamFalse",
+      		"testPath": "main/_runlists/mixed_runlist_repo.vrl",
+     		"addRepositoryNamePrefix": false
+   		 },
+   		 {
+   		 	"name": "TaskParamTrue",
+      		"testPath": "main/_runlists/mixed_runlist_repo.vrl",
+     		"addRepositoryNamePrefix": true
+   		 },
+   		 {
+   		 	"name": "TaskParamNotDefined",
+      		"testPath": "main/_runlists/mixed_runlist_repo.vrl"
+   		 }],
+         "automation": [{
+         	"name": "AutParamFalse",
+      		"testPath": "main/_runlists/mixed_runlist_repo.vrl",
+     		"addRepositoryNamePrefix": false
+   		 },
+   		 {
+   		 	"name": "AutParamTrue",
+      		"testPath": "main/_runlists/mixed_runlist_repo.vrl",
+     		"addRepositoryNamePrefix": true
+   		 },
+   		 {
+   		 	"name": "AutParamNotDefined",
+      		"testPath": "main/_runlists/mixed_runlist_repo.vrl"
+   		 }]
+      },
+      {
+         "name": "Velocity Cluster",
+         "addRepositoryNamePrefix": false,
+         "actionTitle": "Reserve",
+         "description": "Create an immediate reservation on the topology",
+         "reservationDuration": "30"
+      },
+      {
+         "name": "topo2",
          "actionTitle": "Reserve",
          "description": "Create an immediate reservation on the topology",
          "reservationDuration": "30"
