@@ -27,16 +27,34 @@
          "automation": [{
          	"name": "AutParamFalse",
       		"testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc",
-            "addRepositoryNamePrefix": false
+            "addRepositoryNamePrefix": false,
+            "requirements":[
+                  {
+                     "name":"pool",
+                     "value":"driver"
+                  }
+            ]
    		 },
    		 {
    		 	"name": "AutParamTrue",
       		"testPath": "assets/testcases/HelloWow.fftc",
-            "addRepositoryNamePrefix": true
+            "addRepositoryNamePrefix": true,
+            "requirements":[
+                  {
+                     "name":"pool",
+                     "value":"driver"
+                  }
+            ]
    		 },
    		 {
    		 	"name": "AutParamNotDefined",
-      		"testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc"
+      		"testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc",
+            "requirements":[
+                  {
+                     "name":"pool",
+                     "value":"driver"
+                  }
+            ]
    		 }]
       },
       {
