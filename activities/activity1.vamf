@@ -12,31 +12,31 @@
          "reservationDuration": "30",
          "startupTasks": [{
          	"name": "TaskParamFalse",
-      		"testPath": "main/_runlists/mixed_runlist_repo.vrl",
-     		"addRepositoryNamePrefix": false
+      		"testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc",
+            "addRepositoryNamePrefix": false
    		 },
    		 {
    		 	"name": "TaskParamTrue",
-      		"testPath": "main/_runlists/mixed_runlist_repo.vrl",
-     		"addRepositoryNamePrefix": true
+      		"testPath": "assets/testcases/HelloWow.fftc",
+            "addRepositoryNamePrefix": true
    		 },
    		 {
    		 	"name": "TaskParamNotDefined",
-      		"testPath": "main/_runlists/mixed_runlist_repo.vrl"
+      		"testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc"
    		 }],
          "automation": [{
          	"name": "AutParamFalse",
-      		"testPath": "main/_runlists/mixed_runlist_repo.vrl",
-     		"addRepositoryNamePrefix": false
+      		"testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc",
+            "addRepositoryNamePrefix": false
    		 },
    		 {
    		 	"name": "AutParamTrue",
-      		"testPath": "main/_runlists/mixed_runlist_repo.vrl",
-     		"addRepositoryNamePrefix": true
+      		"testPath": "assets/testcases/HelloWow.fftc",
+            "addRepositoryNamePrefix": true
    		 },
    		 {
    		 	"name": "AutParamNotDefined",
-      		"testPath": "main/_runlists/mixed_runlist_repo.vrl"
+      		"testPath": "main/velocity_test_contents/test_cases/HelloWorld.fftc"
    		 }]
       },
       {
