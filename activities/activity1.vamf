@@ -69,6 +69,19 @@
          "actionTitle": "Reserve",
          "description": "Create an immediate reservation on the topology",
          "reservationDuration": "30"
+      },
+      {
+         "name": "Topo2",
+         "addRepositoryNamePrefix": false,
+         "actionTitle": "Reserve",
+         "description": "Create an immediate reservation on the topology",
+         "reservationDuration": "600",
+         "teardownTasks": [
+   		 {
+   		 	"name": "TaskParamTrue",
+      		"testPath": "assets/testcases/HelloWow.fftc",
+            "addRepositoryNamePrefix": true
+   		 }
       }
    ]
 }
