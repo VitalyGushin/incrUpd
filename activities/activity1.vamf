@@ -82,6 +82,7 @@
       		"testPath": "assets/testcases/HelloWow.fftc",
             "addRepositoryNamePrefix": true
    		 }
+         ]
       }
    ]
 }
