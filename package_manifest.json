@@ -1,0 +1,5 @@
+{
+    "name": "Automation Server Standard LM Test Package",
+    "availableInAutSvrStdMode": true,
+    "allowAddingRemoteReposInAutSvrStdMode": true
+}
