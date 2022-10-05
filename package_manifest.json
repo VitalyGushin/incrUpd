@@ -1,6 +1,5 @@
 {
     "name": "Automation Server Standard LM Test Package",
-    "license": "VELOCITY_OCT_WFA_DM",
     "availableInAutSvrStdMode": true,
     "allowAddingRemoteReposInAutSvrStdMode": true
 }
